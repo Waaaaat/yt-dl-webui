@@ -55,7 +55,7 @@
 
 
     <?php //start the PHP (Serversite) Section
-      $DOMAIN = "webtest.server-core.ch"; //Defines the Domain
+      $DOMAIN = "yourdomain.com"; //Defines the Domain
       $WEBROOT = "/var/www/webtests"; //Defines The Websites Webroot
       $FDL = "$WEBROOT/Downloads"; //Defines The Download Folder for the Songs
       $DESTINATION ="$WEBROOT/Downloads/media"; //Defines The Download Folder for the Media
