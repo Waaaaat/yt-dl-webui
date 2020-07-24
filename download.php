@@ -19,7 +19,7 @@
   <head> <!-- Start the Headsection -->
     <meta charset="UTF-8"> <!-- Set The Website Charset -->
     <title>Youtube-DL WebUI</title> <!-- Set The Website Title -->
-    <link rel="stylesheet" type="text/css" href="css/downloads.css"><!-- Add the Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="download.css"><!-- Add the Custom CSS -->
   </head><!-- End the Headsection -->
   <body><!-- Start the Bodysection -->
     <center> <!-- Delete in Final Version - Replace with css -->
