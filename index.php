@@ -32,7 +32,7 @@
     <li><a class=navi href="index.php">Youtube-Downloader Web</a></li>
     <li><a class=navi href="sites/TaAE.php">Title and Actor Editor</a></li>
     <li><a class=navi href="sites/FilenameEditor.php">Filename Editor (Serversite)</a></li>
-    <li><a class=navi href="https://emby.server-core.ch">Emby Media Server</a></li>
+    <li><a class=navi href="https://emby.yourdomain.com">Emby Media Server</a></li>
     <li><a class=navi href="https://github.com/Waaaaat">Github</a></li>
     <li><a class=navi href="sites/About.php">About</a></li>
   </ul>
@@ -62,7 +62,7 @@
 
       <br> <!-- Delete in Final Version - Replace with css -->
       <div>
-        <button name="sendit" value="sendit" type="submit">SEND IT !</button>
+        <button name="sendit" value="sendit" type="submit">SEND IT !</button> 
         <button name="downloadit" value="downloadit" type="submit">DOWNLOAD IT !</button>
       </div>
     </form> <!-- End the Form -->
@@ -70,7 +70,7 @@
   </div> <!-- End the Main Div -->
 
   <?php //start the PHP (Serversite) Section
-        $DOMAIN = "ytdl.server-core.ch"; //Defines the Domain
+        $DOMAIN = "ytdl.yourdomain.com"; //Defines the Domain
         $WEBROOT = "/var/www/ytdl"; //Defines The Websites Webroot
         $FDL = "$WEBROOT/Downloads"; //Defines The Download Folder for the Songs
         $DESTINATION ="/home/emby/music"; //Defines The Download Folder for the Media
