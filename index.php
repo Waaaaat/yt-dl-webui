@@ -76,12 +76,13 @@
         $DESTINATION ="/home/emby/music"; //Defines The Download Folder for the Media
         $FODL = "$WEBROOT/Downloads/old"; //Defines Where To Store the Downloaded Songs afterwards.
         
-        
         $DLParameters = "-i --no-playlist --embed-thumbnail -o '%(title)s.%(ext)s' --merge-output-format mp4"; //Defines the Download Parameters
         $DLFormat = "x"; //mp3 or mp4 (audio or video) + --audio-format or video-format
         $DLURL = "URL-not-Provided"; //Enter the URL
         $GETFILE ="No File Found";
         
+        exec ("mkdir -p $FODL");
+
         //Get the Variables
         if(isset($_GET['sendit'])){ //When button Presset get the variable
           $DLURL = $_GET['URL']; //Get the variable
